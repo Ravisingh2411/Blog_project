@@ -1,6 +1,6 @@
 const JWT = require("jsonwebtoken");
 
-const secret = Jprocess.env.JWT_SECRET;
+const secret = process.env.JWT_SECRET;
 
 function createTokenForUser(user) {
   const payload = {
